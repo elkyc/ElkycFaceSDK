@@ -1,1 +1,1 @@
-# ElkycExample
+# ElkycFaceSDK
