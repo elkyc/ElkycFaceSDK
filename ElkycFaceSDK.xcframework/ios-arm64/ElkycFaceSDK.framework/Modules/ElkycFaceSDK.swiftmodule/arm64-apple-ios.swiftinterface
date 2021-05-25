@@ -1,0 +1,37 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ElkycFaceSDK
+import ElkycCoreSDK
+import FaceSDK
+import Foundation
+import Swift
+import UIKit
+public class FaceMatching : ElkycCoreSDK.ElkycStep {
+  final public let stepId: ElkycCoreSDK.ElkycStepId
+  public struct Response {
+    public let isMatched: Swift.Bool
+    public let similarity: Swift.Double
+  }
+  public init(firstImage: UIKit.UIImage, secondImage: UIKit.UIImage, threshold: Swift.Double)
+  public func start(from viewController: UIKit.UIViewController, completion: @escaping ((Swift.Result<ElkycFaceSDK.FaceMatching.Response, Swift.Error>) -> Swift.Void))
+  public typealias Output = ElkycFaceSDK.FaceMatching.Response
+  @objc deinit
+}
+public class FaceLiveness : ElkycCoreSDK.ElkycStep {
+  public struct Response {
+    public let image: UIKit.UIImage?
+    public let isLive: Swift.Bool
+  }
+  final public let stepId: ElkycCoreSDK.ElkycStepId
+  public init(attemptsCount: Swift.Int = 1)
+  public func start(from viewController: UIKit.UIViewController, completion: @escaping ((Swift.Result<ElkycFaceSDK.FaceLiveness.Response, Swift.Error>) -> Swift.Void))
+  public typealias Output = ElkycFaceSDK.FaceLiveness.Response
+  @objc deinit
+}
+public class FaceCapturing : ElkycCoreSDK.ElkycStep {
+  final public let stepId: ElkycCoreSDK.ElkycStepId
+  public init()
+  public func start(from viewController: UIKit.UIViewController, completion: @escaping ((Swift.Result<UIKit.UIImage, Swift.Error>) -> Swift.Void))
+  public typealias Output = UIKit.UIImage
+  @objc deinit
+}

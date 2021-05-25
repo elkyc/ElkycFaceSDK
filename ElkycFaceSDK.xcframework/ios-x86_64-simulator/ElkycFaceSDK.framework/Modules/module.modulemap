@@ -1,0 +1,4 @@
+framework module ElkycFaceSDK {
+  header "ElkycFaceSDK-Swift.h"
+  requires objc
+}
