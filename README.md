@@ -21,6 +21,11 @@ ElkycFaceSDK does not have any components but it is dependent on [ElkycCoreSDK](
 - Xcode 11+
 - Swift 5.1+
 
+# Permissions
+## Camera
+
+This is achieved easily by adding the NSCameraUsageDescription key to the Info.plist along with usage description string. This usage string is displayed when the user is asked to allow access, so localization may be desired depending on your user base.
+
 # Installation
 ## CocoaPods
 
