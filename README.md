@@ -116,5 +116,6 @@ Response struct with person's photo and isLive flag
 public struct Response {
 	public let image: UIImage?
 	public let isLive: Bool
+        public let guid: String?
 }
 ```
