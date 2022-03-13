@@ -28,6 +28,6 @@ Pod::Spec.new do |s|
     s.platform = :ios
     s.swift_version = "5.0"
     s.ios.deployment_target  = '11.0'
-    s.dependency 'FaceSDKBeta', '5.4.927'
+    s.dependency 'FaceSDK', '3.2.1078'
     s.dependency 'ElkycCoreSDK', "#{s.version}"
 end
