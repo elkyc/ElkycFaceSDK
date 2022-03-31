@@ -1,8 +1,8 @@
 // swift-tools-version:5.3
 import PackageDescription
 
-let version = "1.2.6"
-let checksum = "388e3ab6382618b915069dbedb931e218503940767549de85569263a05e37df2"
+let version = "1.2.8"
+let checksum = "cfdeaf8f691c5017ca1c3cc9ca796e6abfba0ca596bdce91303f17eeeaa6ec8d"
 
 let package = Package(
     name: "ElkycFaceSDK",
