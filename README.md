@@ -121,6 +121,7 @@ If you want to understand is person alive or not, then this step is for you. It 
 **Input:**
 
 - attemptsCount, the number of attempts to try.
+- isRequired, if false after number of attempts user can skip this step.
 
 **Output:**
 
@@ -130,6 +131,6 @@ Response struct with person's photo and isLive flag
 public struct Response {
 	public let image: UIImage?
 	public let isLive: Bool
-        public let guid: String?
+  public let guid: String?
 }
 ```
