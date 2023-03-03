@@ -1,0 +1,1564 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ElkycFaceSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FaceSDK",
+        "printedName": "FaceSDK",
+        "declKind": "Import",
+        "moduleName": "ElkycFaceSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "ElkycCoreSDK",
+        "printedName": "ElkycCoreSDK",
+        "declKind": "Import",
+        "moduleName": "ElkycFaceSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FaceLiveness",
+        "printedName": "FaceLiveness",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Response",
+            "printedName": "Response",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "image",
+                "printedName": "image",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12ElkycFaceSDK0B8LivenessC8ResponseV5imageSo7UIImageCSgvp",
+                "mangledName": "$s12ElkycFaceSDK0B8LivenessC8ResponseV5imageSo7UIImageCSgvp",
+                "moduleName": "ElkycFaceSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "UIKit.UIImage?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIImage",
+                            "printedName": "UIKit.UIImage",
+                            "usr": "c:objc(cs)UIImage"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12ElkycFaceSDK0B8LivenessC8ResponseV5imageSo7UIImageCSgvg",
+                    "mangledName": "$s12ElkycFaceSDK0B8LivenessC8ResponseV5imageSo7UIImageCSgvg",
+                    "moduleName": "ElkycFaceSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "isLive",
+                "printedName": "isLive",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12ElkycFaceSDK0B8LivenessC8ResponseV6isLiveSbvp",
+                "mangledName": "$s12ElkycFaceSDK0B8LivenessC8ResponseV6isLiveSbvp",
+                "moduleName": "ElkycFaceSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12ElkycFaceSDK0B8LivenessC8ResponseV6isLiveSbvg",
+                    "mangledName": "$s12ElkycFaceSDK0B8LivenessC8ResponseV6isLiveSbvg",
+                    "moduleName": "ElkycFaceSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "guid",
+                "printedName": "guid",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12ElkycFaceSDK0B8LivenessC8ResponseV4guidSSSgvp",
+                "mangledName": "$s12ElkycFaceSDK0B8LivenessC8ResponseV4guidSSSgvp",
+                "moduleName": "ElkycFaceSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12ElkycFaceSDK0B8LivenessC8ResponseV4guidSSSgvg",
+                    "mangledName": "$s12ElkycFaceSDK0B8LivenessC8ResponseV4guidSSSgvg",
+                    "moduleName": "ElkycFaceSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:12ElkycFaceSDK0B8LivenessC8ResponseV",
+            "mangledName": "$s12ElkycFaceSDK0B8LivenessC8ResponseV",
+            "moduleName": "ElkycFaceSDK",
+            "declAttributes": [
+              "AccessControl"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "stepId",
+            "printedName": "stepId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ElkycStepId",
+                "printedName": "ElkycCoreSDK.ElkycStepId",
+                "usr": "s:12ElkycCoreSDK0A6StepIdV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12ElkycFaceSDK0B8LivenessC6stepId0a4CoreC00a4StepF0Vvp",
+            "mangledName": "$s12ElkycFaceSDK0B8LivenessC6stepId0a4CoreC00a4StepF0Vvp",
+            "moduleName": "ElkycFaceSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ElkycStepId",
+                    "printedName": "ElkycCoreSDK.ElkycStepId",
+                    "usr": "s:12ElkycCoreSDK0A6StepIdV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ElkycFaceSDK0B8LivenessC6stepId0a4CoreC00a4StepF0Vvg",
+                "mangledName": "$s12ElkycFaceSDK0B8LivenessC6stepId0a4CoreC00a4StepF0Vvg",
+                "moduleName": "ElkycFaceSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ElkycStepId",
+                    "printedName": "ElkycCoreSDK.ElkycStepId",
+                    "usr": "s:12ElkycCoreSDK0A6StepIdV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ElkycFaceSDK0B8LivenessC6stepId0a4CoreC00a4StepF0Vvs",
+                "mangledName": "$s12ElkycFaceSDK0B8LivenessC6stepId0a4CoreC00a4StepF0Vvs",
+                "moduleName": "ElkycFaceSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ElkycFaceSDK0B8LivenessC6stepId0a4CoreC00a4StepF0VvM",
+                "mangledName": "$s12ElkycFaceSDK0B8LivenessC6stepId0a4CoreC00a4StepF0VvM",
+                "moduleName": "ElkycFaceSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(attemptsCount:isRequired:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FaceLiveness",
+                "printedName": "ElkycFaceSDK.FaceLiveness",
+                "usr": "s:12ElkycFaceSDK0B8LivenessC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12ElkycFaceSDK0B8LivenessC13attemptsCount10isRequiredACSi_Sbtcfc",
+            "mangledName": "$s12ElkycFaceSDK0B8LivenessC13attemptsCount10isRequiredACSi_Sbtcfc",
+            "moduleName": "ElkycFaceSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start(from:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<ElkycFaceSDK.FaceLiveness.Response, Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<ElkycFaceSDK.FaceLiveness.Response, Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Response",
+                        "printedName": "ElkycFaceSDK.FaceLiveness.Response",
+                        "usr": "s:12ElkycFaceSDK0B8LivenessC8ResponseV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12ElkycFaceSDK0B8LivenessC5start4from10completionySo16UIViewControllerC_ys6ResultOyAC8ResponseVs5Error_pGctF",
+            "mangledName": "$s12ElkycFaceSDK0B8LivenessC5start4from10completionySo16UIViewControllerC_ys6ResultOyAC8ResponseVs5Error_pGctF",
+            "moduleName": "ElkycFaceSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12ElkycFaceSDK0B8LivenessC",
+        "mangledName": "$s12ElkycFaceSDK0B8LivenessC",
+        "moduleName": "ElkycFaceSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ElkycStep",
+            "printedName": "ElkycStep",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Output",
+                "printedName": "Output",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Response",
+                    "printedName": "ElkycFaceSDK.FaceLiveness.Response",
+                    "usr": "s:12ElkycFaceSDK0B8LivenessC8ResponseV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:12ElkycCoreSDK0A4StepP",
+            "mangledName": "$s12ElkycCoreSDK0A4StepP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ElkycFaceSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ElkycFaceSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FaceSDK",
+        "printedName": "FaceSDK",
+        "declKind": "Import",
+        "moduleName": "ElkycFaceSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "ElkycCoreSDK",
+        "printedName": "ElkycCoreSDK",
+        "declKind": "Import",
+        "moduleName": "ElkycFaceSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FaceMatching",
+        "printedName": "FaceMatching",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "stepId",
+            "printedName": "stepId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ElkycStepId",
+                "printedName": "ElkycCoreSDK.ElkycStepId",
+                "usr": "s:12ElkycCoreSDK0A6StepIdV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12ElkycFaceSDK0B8MatchingC6stepId0a4CoreC00a4StepF0Vvp",
+            "mangledName": "$s12ElkycFaceSDK0B8MatchingC6stepId0a4CoreC00a4StepF0Vvp",
+            "moduleName": "ElkycFaceSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ElkycStepId",
+                    "printedName": "ElkycCoreSDK.ElkycStepId",
+                    "usr": "s:12ElkycCoreSDK0A6StepIdV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ElkycFaceSDK0B8MatchingC6stepId0a4CoreC00a4StepF0Vvg",
+                "mangledName": "$s12ElkycFaceSDK0B8MatchingC6stepId0a4CoreC00a4StepF0Vvg",
+                "moduleName": "ElkycFaceSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ElkycStepId",
+                    "printedName": "ElkycCoreSDK.ElkycStepId",
+                    "usr": "s:12ElkycCoreSDK0A6StepIdV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ElkycFaceSDK0B8MatchingC6stepId0a4CoreC00a4StepF0Vvs",
+                "mangledName": "$s12ElkycFaceSDK0B8MatchingC6stepId0a4CoreC00a4StepF0Vvs",
+                "moduleName": "ElkycFaceSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ElkycFaceSDK0B8MatchingC6stepId0a4CoreC00a4StepF0VvM",
+                "mangledName": "$s12ElkycFaceSDK0B8MatchingC6stepId0a4CoreC00a4StepF0VvM",
+                "moduleName": "ElkycFaceSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Response",
+            "printedName": "Response",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "firstImage",
+                "printedName": "firstImage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12ElkycFaceSDK0B8MatchingC8ResponseV10firstImageSo7UIImageCvp",
+                "mangledName": "$s12ElkycFaceSDK0B8MatchingC8ResponseV10firstImageSo7UIImageCvp",
+                "moduleName": "ElkycFaceSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12ElkycFaceSDK0B8MatchingC8ResponseV10firstImageSo7UIImageCvg",
+                    "mangledName": "$s12ElkycFaceSDK0B8MatchingC8ResponseV10firstImageSo7UIImageCvg",
+                    "moduleName": "ElkycFaceSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "secondImage",
+                "printedName": "secondImage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12ElkycFaceSDK0B8MatchingC8ResponseV11secondImageSo7UIImageCvp",
+                "mangledName": "$s12ElkycFaceSDK0B8MatchingC8ResponseV11secondImageSo7UIImageCvp",
+                "moduleName": "ElkycFaceSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12ElkycFaceSDK0B8MatchingC8ResponseV11secondImageSo7UIImageCvg",
+                    "mangledName": "$s12ElkycFaceSDK0B8MatchingC8ResponseV11secondImageSo7UIImageCvg",
+                    "moduleName": "ElkycFaceSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "isMatched",
+                "printedName": "isMatched",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12ElkycFaceSDK0B8MatchingC8ResponseV9isMatchedSbvp",
+                "mangledName": "$s12ElkycFaceSDK0B8MatchingC8ResponseV9isMatchedSbvp",
+                "moduleName": "ElkycFaceSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12ElkycFaceSDK0B8MatchingC8ResponseV9isMatchedSbvg",
+                    "mangledName": "$s12ElkycFaceSDK0B8MatchingC8ResponseV9isMatchedSbvg",
+                    "moduleName": "ElkycFaceSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "similarity",
+                "printedName": "similarity",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12ElkycFaceSDK0B8MatchingC8ResponseV10similaritySdvp",
+                "mangledName": "$s12ElkycFaceSDK0B8MatchingC8ResponseV10similaritySdvp",
+                "moduleName": "ElkycFaceSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12ElkycFaceSDK0B8MatchingC8ResponseV10similaritySdvg",
+                    "mangledName": "$s12ElkycFaceSDK0B8MatchingC8ResponseV10similaritySdvg",
+                    "moduleName": "ElkycFaceSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:12ElkycFaceSDK0B8MatchingC8ResponseV",
+            "mangledName": "$s12ElkycFaceSDK0B8MatchingC8ResponseV",
+            "moduleName": "ElkycFaceSDK",
+            "declAttributes": [
+              "AccessControl"
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "InputImage",
+            "printedName": "InputImage",
+            "children": [
+              {
+                "kind": "TypeDecl",
+                "name": "Type",
+                "printedName": "Type",
+                "children": [
+                  {
+                    "kind": "Var",
+                    "name": "printed",
+                    "printedName": "printed",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(ElkycFaceSDK.FaceMatching.InputImage.`Type`.Type) -> ElkycFaceSDK.FaceMatching.InputImage.`Type`",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Type",
+                            "printedName": "ElkycFaceSDK.FaceMatching.InputImage.`Type`",
+                            "usr": "s:12ElkycFaceSDK0B8MatchingC10InputImageV4TypeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "ElkycFaceSDK.FaceMatching.InputImage.`Type`.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Type",
+                                "printedName": "ElkycFaceSDK.FaceMatching.InputImage.`Type`",
+                                "usr": "s:12ElkycFaceSDK0B8MatchingC10InputImageV4TypeO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:12ElkycFaceSDK0B8MatchingC10InputImageV4TypeO7printedyA2GmF",
+                    "mangledName": "$s12ElkycFaceSDK0B8MatchingC10InputImageV4TypeO7printedyA2GmF",
+                    "moduleName": "ElkycFaceSDK"
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "rfid",
+                    "printedName": "rfid",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(ElkycFaceSDK.FaceMatching.InputImage.`Type`.Type) -> ElkycFaceSDK.FaceMatching.InputImage.`Type`",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Type",
+                            "printedName": "ElkycFaceSDK.FaceMatching.InputImage.`Type`",
+                            "usr": "s:12ElkycFaceSDK0B8MatchingC10InputImageV4TypeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "ElkycFaceSDK.FaceMatching.InputImage.`Type`.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Type",
+                                "printedName": "ElkycFaceSDK.FaceMatching.InputImage.`Type`",
+                                "usr": "s:12ElkycFaceSDK0B8MatchingC10InputImageV4TypeO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:12ElkycFaceSDK0B8MatchingC10InputImageV4TypeO4rfidyA2GmF",
+                    "mangledName": "$s12ElkycFaceSDK0B8MatchingC10InputImageV4TypeO4rfidyA2GmF",
+                    "moduleName": "ElkycFaceSDK"
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "live",
+                    "printedName": "live",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(ElkycFaceSDK.FaceMatching.InputImage.`Type`.Type) -> ElkycFaceSDK.FaceMatching.InputImage.`Type`",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Type",
+                            "printedName": "ElkycFaceSDK.FaceMatching.InputImage.`Type`",
+                            "usr": "s:12ElkycFaceSDK0B8MatchingC10InputImageV4TypeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "ElkycFaceSDK.FaceMatching.InputImage.`Type`.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Type",
+                                "printedName": "ElkycFaceSDK.FaceMatching.InputImage.`Type`",
+                                "usr": "s:12ElkycFaceSDK0B8MatchingC10InputImageV4TypeO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:12ElkycFaceSDK0B8MatchingC10InputImageV4TypeO4liveyA2GmF",
+                    "mangledName": "$s12ElkycFaceSDK0B8MatchingC10InputImageV4TypeO4liveyA2GmF",
+                    "moduleName": "ElkycFaceSDK"
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "liveWithDoc",
+                    "printedName": "liveWithDoc",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(ElkycFaceSDK.FaceMatching.InputImage.`Type`.Type) -> ElkycFaceSDK.FaceMatching.InputImage.`Type`",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Type",
+                            "printedName": "ElkycFaceSDK.FaceMatching.InputImage.`Type`",
+                            "usr": "s:12ElkycFaceSDK0B8MatchingC10InputImageV4TypeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "ElkycFaceSDK.FaceMatching.InputImage.`Type`.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Type",
+                                "printedName": "ElkycFaceSDK.FaceMatching.InputImage.`Type`",
+                                "usr": "s:12ElkycFaceSDK0B8MatchingC10InputImageV4TypeO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:12ElkycFaceSDK0B8MatchingC10InputImageV4TypeO11liveWithDocyA2GmF",
+                    "mangledName": "$s12ElkycFaceSDK0B8MatchingC10InputImageV4TypeO11liveWithDocyA2GmF",
+                    "moduleName": "ElkycFaceSDK"
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "==",
+                    "printedName": "==(_:_:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Type",
+                        "printedName": "ElkycFaceSDK.FaceMatching.InputImage.`Type`",
+                        "usr": "s:12ElkycFaceSDK0B8MatchingC10InputImageV4TypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Type",
+                        "printedName": "ElkycFaceSDK.FaceMatching.InputImage.`Type`",
+                        "usr": "s:12ElkycFaceSDK0B8MatchingC10InputImageV4TypeO"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:12ElkycFaceSDK0B8MatchingC10InputImageV4TypeO2eeoiySbAG_AGtFZ",
+                    "mangledName": "$s12ElkycFaceSDK0B8MatchingC10InputImageV4TypeO2eeoiySbAG_AGtFZ",
+                    "moduleName": "ElkycFaceSDK",
+                    "static": true,
+                    "implicit": true,
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "hashValue",
+                    "printedName": "hashValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:12ElkycFaceSDK0B8MatchingC10InputImageV4TypeO9hashValueSivp",
+                    "mangledName": "$s12ElkycFaceSDK0B8MatchingC10InputImageV4TypeO9hashValueSivp",
+                    "moduleName": "ElkycFaceSDK",
+                    "implicit": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:12ElkycFaceSDK0B8MatchingC10InputImageV4TypeO9hashValueSivg",
+                        "mangledName": "$s12ElkycFaceSDK0B8MatchingC10InputImageV4TypeO9hashValueSivg",
+                        "moduleName": "ElkycFaceSDK",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "hash",
+                    "printedName": "hash(into:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Hasher",
+                        "printedName": "Swift.Hasher",
+                        "paramValueOwnership": "InOut",
+                        "usr": "s:s6HasherV"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:12ElkycFaceSDK0B8MatchingC10InputImageV4TypeO4hash4intoys6HasherVz_tF",
+                    "mangledName": "$s12ElkycFaceSDK0B8MatchingC10InputImageV4TypeO4hash4intoys6HasherVz_tF",
+                    "moduleName": "ElkycFaceSDK",
+                    "implicit": true,
+                    "funcSelfKind": "NonMutating"
+                  }
+                ],
+                "declKind": "Enum",
+                "usr": "s:12ElkycFaceSDK0B8MatchingC10InputImageV4TypeO",
+                "mangledName": "$s12ElkycFaceSDK0B8MatchingC10InputImageV4TypeO",
+                "moduleName": "ElkycFaceSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Equatable",
+                    "printedName": "Equatable",
+                    "usr": "s:SQ",
+                    "mangledName": "$sSQ"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Hashable",
+                    "printedName": "Hashable",
+                    "usr": "s:SH",
+                    "mangledName": "$sSH"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "image",
+                "printedName": "image",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12ElkycFaceSDK0B8MatchingC10InputImageV5imageSo7UIImageCvp",
+                "mangledName": "$s12ElkycFaceSDK0B8MatchingC10InputImageV5imageSo7UIImageCvp",
+                "moduleName": "ElkycFaceSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12ElkycFaceSDK0B8MatchingC10InputImageV5imageSo7UIImageCvg",
+                    "mangledName": "$s12ElkycFaceSDK0B8MatchingC10InputImageV5imageSo7UIImageCvg",
+                    "moduleName": "ElkycFaceSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "type",
+                "printedName": "type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Type",
+                    "printedName": "ElkycFaceSDK.FaceMatching.InputImage.`Type`",
+                    "usr": "s:12ElkycFaceSDK0B8MatchingC10InputImageV4TypeO"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12ElkycFaceSDK0B8MatchingC10InputImageV4typeAE4TypeOvp",
+                "mangledName": "$s12ElkycFaceSDK0B8MatchingC10InputImageV4typeAE4TypeOvp",
+                "moduleName": "ElkycFaceSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Type",
+                        "printedName": "ElkycFaceSDK.FaceMatching.InputImage.`Type`",
+                        "usr": "s:12ElkycFaceSDK0B8MatchingC10InputImageV4TypeO"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12ElkycFaceSDK0B8MatchingC10InputImageV4typeAE4TypeOvg",
+                    "mangledName": "$s12ElkycFaceSDK0B8MatchingC10InputImageV4typeAE4TypeOvg",
+                    "moduleName": "ElkycFaceSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(image:type:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InputImage",
+                    "printedName": "ElkycFaceSDK.FaceMatching.InputImage",
+                    "usr": "s:12ElkycFaceSDK0B8MatchingC10InputImageV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Type",
+                    "printedName": "ElkycFaceSDK.FaceMatching.InputImage.`Type`",
+                    "usr": "s:12ElkycFaceSDK0B8MatchingC10InputImageV4TypeO"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:12ElkycFaceSDK0B8MatchingC10InputImageV5image4typeAESo7UIImageC_AE4TypeOtcfc",
+                "mangledName": "$s12ElkycFaceSDK0B8MatchingC10InputImageV5image4typeAESo7UIImageC_AE4TypeOtcfc",
+                "moduleName": "ElkycFaceSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:12ElkycFaceSDK0B8MatchingC10InputImageV",
+            "mangledName": "$s12ElkycFaceSDK0B8MatchingC10InputImageV",
+            "moduleName": "ElkycFaceSDK",
+            "declAttributes": [
+              "AccessControl"
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(firstImage:secondImage:threshold:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FaceMatching",
+                "printedName": "ElkycFaceSDK.FaceMatching",
+                "usr": "s:12ElkycFaceSDK0B8MatchingC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InputImage",
+                "printedName": "ElkycFaceSDK.FaceMatching.InputImage",
+                "usr": "s:12ElkycFaceSDK0B8MatchingC10InputImageV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InputImage",
+                "printedName": "ElkycFaceSDK.FaceMatching.InputImage",
+                "usr": "s:12ElkycFaceSDK0B8MatchingC10InputImageV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12ElkycFaceSDK0B8MatchingC10firstImage06secondF09thresholdA2C05InputF0V_AHSdtcfc",
+            "mangledName": "$s12ElkycFaceSDK0B8MatchingC10firstImage06secondF09thresholdA2C05InputF0V_AHSdtcfc",
+            "moduleName": "ElkycFaceSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start(from:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<ElkycFaceSDK.FaceMatching.Response, Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<ElkycFaceSDK.FaceMatching.Response, Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Response",
+                        "printedName": "ElkycFaceSDK.FaceMatching.Response",
+                        "usr": "s:12ElkycFaceSDK0B8MatchingC8ResponseV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12ElkycFaceSDK0B8MatchingC5start4from10completionySo16UIViewControllerC_ys6ResultOyAC8ResponseVs5Error_pGctF",
+            "mangledName": "$s12ElkycFaceSDK0B8MatchingC5start4from10completionySo16UIViewControllerC_ys6ResultOyAC8ResponseVs5Error_pGctF",
+            "moduleName": "ElkycFaceSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12ElkycFaceSDK0B8MatchingC",
+        "mangledName": "$s12ElkycFaceSDK0B8MatchingC",
+        "moduleName": "ElkycFaceSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ElkycStep",
+            "printedName": "ElkycStep",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Output",
+                "printedName": "Output",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Response",
+                    "printedName": "ElkycFaceSDK.FaceMatching.Response",
+                    "usr": "s:12ElkycFaceSDK0B8MatchingC8ResponseV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:12ElkycCoreSDK0A4StepP",
+            "mangledName": "$s12ElkycCoreSDK0A4StepP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ElkycFaceSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ElkycCoreSDK",
+        "printedName": "ElkycCoreSDK",
+        "declKind": "Import",
+        "moduleName": "ElkycFaceSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "FaceSDK",
+        "printedName": "FaceSDK",
+        "declKind": "Import",
+        "moduleName": "ElkycFaceSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ElkycFaceSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FaceSDK",
+        "printedName": "FaceSDK",
+        "declKind": "Import",
+        "moduleName": "ElkycFaceSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "ElkycCoreSDK",
+        "printedName": "ElkycCoreSDK",
+        "declKind": "Import",
+        "moduleName": "ElkycFaceSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FaceCapturing",
+        "printedName": "FaceCapturing",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "stepId",
+            "printedName": "stepId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ElkycStepId",
+                "printedName": "ElkycCoreSDK.ElkycStepId",
+                "usr": "s:12ElkycCoreSDK0A6StepIdV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12ElkycFaceSDK0B9CapturingC6stepId0a4CoreC00a4StepF0Vvp",
+            "mangledName": "$s12ElkycFaceSDK0B9CapturingC6stepId0a4CoreC00a4StepF0Vvp",
+            "moduleName": "ElkycFaceSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ElkycStepId",
+                    "printedName": "ElkycCoreSDK.ElkycStepId",
+                    "usr": "s:12ElkycCoreSDK0A6StepIdV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ElkycFaceSDK0B9CapturingC6stepId0a4CoreC00a4StepF0Vvg",
+                "mangledName": "$s12ElkycFaceSDK0B9CapturingC6stepId0a4CoreC00a4StepF0Vvg",
+                "moduleName": "ElkycFaceSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ElkycStepId",
+                    "printedName": "ElkycCoreSDK.ElkycStepId",
+                    "usr": "s:12ElkycCoreSDK0A6StepIdV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ElkycFaceSDK0B9CapturingC6stepId0a4CoreC00a4StepF0Vvs",
+                "mangledName": "$s12ElkycFaceSDK0B9CapturingC6stepId0a4CoreC00a4StepF0Vvs",
+                "moduleName": "ElkycFaceSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ElkycFaceSDK0B9CapturingC6stepId0a4CoreC00a4StepF0VvM",
+                "mangledName": "$s12ElkycFaceSDK0B9CapturingC6stepId0a4CoreC00a4StepF0VvM",
+                "moduleName": "ElkycFaceSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FaceCapturing",
+                "printedName": "ElkycFaceSDK.FaceCapturing",
+                "usr": "s:12ElkycFaceSDK0B9CapturingC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12ElkycFaceSDK0B9CapturingCACycfc",
+            "mangledName": "$s12ElkycFaceSDK0B9CapturingCACycfc",
+            "moduleName": "ElkycFaceSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start(from:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<UIKit.UIImage, Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<UIKit.UIImage, Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12ElkycFaceSDK0B9CapturingC5start4from10completionySo16UIViewControllerC_ys6ResultOySo7UIImageCs5Error_pGctF",
+            "mangledName": "$s12ElkycFaceSDK0B9CapturingC5start4from10completionySo16UIViewControllerC_ys6ResultOySo7UIImageCs5Error_pGctF",
+            "moduleName": "ElkycFaceSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12ElkycFaceSDK0B9CapturingC",
+        "mangledName": "$s12ElkycFaceSDK0B9CapturingC",
+        "moduleName": "ElkycFaceSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ElkycStep",
+            "printedName": "ElkycStep",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Output",
+                "printedName": "Output",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:12ElkycCoreSDK0A4StepP",
+            "mangledName": "$s12ElkycCoreSDK0A4StepP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycFaceSDK\/Steps\/FaceLiveness.swift",
+      "kind": "StringLiteral",
+      "offset": 391,
+      "length": 27,
+      "value": "\"RFSLivenessErrorCancelled\""
+    },
+    {
+      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycFaceSDK\/Steps\/FaceLiveness.swift",
+      "kind": "IntegerLiteral",
+      "offset": 531,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycFaceSDK\/Steps\/FaceLiveness.swift",
+      "kind": "BooleanLiteral",
+      "offset": 553,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycFaceSDK\/ElkycFaceSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 304,
+      "length": 23,
+      "value": "\"ElkycFaceSDK_Keychain\""
+    }
+  ]
+}
