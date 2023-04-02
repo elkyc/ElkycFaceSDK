@@ -1533,28 +1533,28 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycFaceSDK\/Steps\/FaceLiveness.swift",
+      "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycFaceSDK\/Steps\/FaceLiveness.swift",
       "kind": "StringLiteral",
       "offset": 391,
       "length": 27,
       "value": "\"RFSLivenessErrorCancelled\""
     },
     {
-      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycFaceSDK\/Steps\/FaceLiveness.swift",
+      "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycFaceSDK\/Steps\/FaceLiveness.swift",
       "kind": "IntegerLiteral",
       "offset": 531,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycFaceSDK\/Steps\/FaceLiveness.swift",
+      "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycFaceSDK\/Steps\/FaceLiveness.swift",
       "kind": "BooleanLiteral",
       "offset": 553,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/alexgurin\/Documents\/Projects\/Elkyc\/elkycSDK\/ElkycFaceSDK\/ElkycFaceSDK.swift",
+      "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycFaceSDK\/ElkycFaceSDK.swift",
       "kind": "StringLiteral",
       "offset": 304,
       "length": 23,

@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		htcJuqvEeWMn/O8n7dCRDXue1Yw=
+		ogaZnZ3UUUEoaMFL53dkbiOc2RE=
 		</data>
 		<key>Modules/ElkycFaceSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		anjZRFtKFOg28QXgimo7obksAo4=
+		MOEIXpUHa5FeGFV0uKWR7HFoOwA=
 		</data>
 		<key>Modules/ElkycFaceSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/ElkycFaceSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		k31yu0fG0iuQo5vjQA1yAt86HS4=
+		wK9H9nuZgeNSGk5GXxt6U3kV9qA=
 		</data>
 		<key>Modules/ElkycFaceSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		anjZRFtKFOg28QXgimo7obksAo4=
+		MOEIXpUHa5FeGFV0uKWR7HFoOwA=
 		</data>
 		<key>Modules/ElkycFaceSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/ElkycFaceSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		HM5Byo93ZMNWyhXKl5NFDtxoT4w=
+		XgA83X/gxX95ZVFCJsCi8W2fBG8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8QZeO/8lGFCE3Glln3I2SGXCMcsfsgBVDyDpIvzaTOM=
+			qobSdbrvK/f50sganywL38qj7Uo4r5KMlepxjsX0lX0=
 			</data>
 		</dict>
 		<key>Modules/ElkycFaceSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			d8JbbXgcdwsuVHAnKQg12kfxlptOxICXx6hMyuDcl9w=
+			7JeL5WaXkqa/AawjQ3WRc7pvz1TEWKMtbXnBX3hImiI=
 			</data>
 		</dict>
 		<key>Modules/ElkycFaceSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8QZeO/8lGFCE3Glln3I2SGXCMcsfsgBVDyDpIvzaTOM=
+			qobSdbrvK/f50sganywL38qj7Uo4r5KMlepxjsX0lX0=
 			</data>
 		</dict>
 		<key>Modules/ElkycFaceSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OGmVxJMmxCPONNgRaoxmB0fUWFnI2Aroh/El0UdSCLE=
+			G7T/5dw6MMxfaCnoj/vpPSZmQyK99jyetbQUdQ++Euk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
