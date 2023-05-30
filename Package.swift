@@ -9,7 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "ElkycFaceSDK",
-            targets: ["ElkycFaceSDK", "FaceSDK"]),
+            targets: ["ElkycFaceSDK", "FaceSDK", "FaceCoreSDK"]),
     ],
     targets: [
         .binaryTarget(
@@ -18,7 +18,11 @@ let package = Package(
             checksum: checksum),
         .binaryTarget(
             name: "FaceSDK",
-            url: "https://pods.regulaforensics.com/FaceSDK/4.1.1153/FaceSDK-4.1.1153.zip",
-            checksum: "48611ea7ec22ab0f0d1ef07371001d7b918e50875b65c1b351d7ebf17ab6d014")
+            url: "https://pods.regulaforensics.com/FaceSDK/5.1.1472/FaceSDK-5.1.1472.zip",
+            checksum: "d47a1d1ffb7f87ed2a22fcecc675f398d688d7a1b80d673009ca2e443a82d159"),
+        .binaryTarget(
+            name: "FaceCoreSDK",
+            url: "https://pods.regulaforensics.com/FaceCoreSDK/5.1.315/FaceCoreSDK-5.1.315.zip",
+            checksum: "97d27f30798fecd8dc4ece4a3f85a393f8c956f4beccbe510fcdb3a4d8103f2a")
     ]
 )
