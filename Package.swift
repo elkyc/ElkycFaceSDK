@@ -2,7 +2,7 @@
 import PackageDescription
 
 let version = "2.2.0"
-let checksum = "155e651f213b2a2678e48c6eb9308a9ffd03bedfe8b0ce6d53c7f8241a874f37"
+let checksum = "81a528ef05d8639c6eeb13b57552bafcfd04bd9a35bd3c1bbaf9816a6c77fe91"
 
 let package = Package(
     name: "ElkycFaceSDK",
