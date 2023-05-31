@@ -48,6 +48,7 @@ public class FaceMatching : ElkycCoreSDK.ElkycStep {
   }
   public init(firstImage: ElkycFaceSDK.FaceMatching.InputImage, secondImage: ElkycFaceSDK.FaceMatching.InputImage, threshold: Swift.Double)
   public func start(from viewController: UIKit.UIViewController, completion: @escaping ((Swift.Result<ElkycFaceSDK.FaceMatching.Response, Swift.Error>) -> Swift.Void))
+  public func startStep(from viewController: UIKit.UIViewController, completion: @escaping ((Swift.Result<ElkycFaceSDK.FaceMatching.Response, Swift.Error>) -> Swift.Void))
   public typealias Output = ElkycFaceSDK.FaceMatching.Response
   @objc deinit
 }
@@ -55,6 +56,7 @@ public class FaceCapturing : ElkycCoreSDK.ElkycStep {
   public var stepId: ElkycCoreSDK.ElkycStepId
   public init()
   public func start(from viewController: UIKit.UIViewController, completion: @escaping ((Swift.Result<UIKit.UIImage, Swift.Error>) -> Swift.Void))
+  public func startStep(from viewController: UIKit.UIViewController, completion: @escaping ((Swift.Result<UIKit.UIImage, Swift.Error>) -> Swift.Void))
   public typealias Output = UIKit.UIImage
   @objc deinit
 }

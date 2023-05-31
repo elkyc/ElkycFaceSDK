@@ -1243,6 +1243,64 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startStep",
+            "printedName": "startStep(from:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<ElkycFaceSDK.FaceMatching.Response, Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<ElkycFaceSDK.FaceMatching.Response, Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Response",
+                        "printedName": "ElkycFaceSDK.FaceMatching.Response",
+                        "usr": "s:12ElkycFaceSDK0B8MatchingC8ResponseV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12ElkycFaceSDK0B8MatchingC9startStep4from10completionySo16UIViewControllerC_ys6ResultOyAC8ResponseVs5Error_pGctF",
+            "mangledName": "$s12ElkycFaceSDK0B8MatchingC9startStep4from10completionySo16UIViewControllerC_ys6ResultOyAC8ResponseVs5Error_pGctF",
+            "moduleName": "ElkycFaceSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -1494,6 +1552,64 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startStep",
+            "printedName": "startStep(from:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<UIKit.UIImage, Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<UIKit.UIImage, Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12ElkycFaceSDK0B9CapturingC9startStep4from10completionySo16UIViewControllerC_ys6ResultOySo7UIImageCs5Error_pGctF",
+            "mangledName": "$s12ElkycFaceSDK0B9CapturingC9startStep4from10completionySo16UIViewControllerC_ys6ResultOySo7UIImageCs5Error_pGctF",
+            "moduleName": "ElkycFaceSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -1535,21 +1651,35 @@
     {
       "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycFaceSDK\/Steps\/FaceLiveness.swift",
       "kind": "StringLiteral",
-      "offset": 391,
+      "offset": 401,
       "length": 27,
       "value": "\"RFSLivenessErrorCancelled\""
     },
     {
       "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycFaceSDK\/Steps\/FaceLiveness.swift",
+      "kind": "StringLiteral",
+      "offset": 456,
+      "length": 35,
+      "value": "\"RFSLivenessErrorProcessingTimeout\""
+    },
+    {
+      "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycFaceSDK\/Steps\/FaceLiveness.swift",
+      "kind": "StringLiteral",
+      "offset": 528,
+      "length": 34,
+      "value": "\"RFSLivenessErrorProcessingFailed\""
+    },
+    {
+      "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycFaceSDK\/Steps\/FaceLiveness.swift",
       "kind": "IntegerLiteral",
-      "offset": 531,
+      "offset": 680,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycFaceSDK\/Steps\/FaceLiveness.swift",
       "kind": "BooleanLiteral",
-      "offset": 553,
+      "offset": 702,
       "length": 4,
       "value": "true"
     },
@@ -1559,6 +1689,13 @@
       "offset": 304,
       "length": 23,
       "value": "\"ElkycFaceSDK_Keychain\""
+    },
+    {
+      "filePath": "\/Users\/chausov\/Developer\/elkyc\/elkycSDK\/ElkycFaceSDK\/ElkycFaceSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 358,
+      "length": 1,
+      "value": "0"
     }
   ]
 }
